@@ -3,57 +3,150 @@
   <head>
     <title>Lab 2 Part 1</title>
     <meta name="Author" content="Jordan Chang" />
-    <link rel="favicon" href="favicon-16x16.png" />
+    <link rel="icon" href="android-chrome-192x192.png" />
   </head>
   <body>
-    <h1>Example Meeting Minutes</h1>
-    <h2>Brainstorming ideas of what to do over the weekend</h2>
-    <h3>April 16, 2024</h3>
+    <nav class="Basic Contents">
+      <h3>Brief Summary</h2>
+      <p>This is a <b>example</b> documentation of Meeting Minutes, and what it would contain, along with a general format of what it should look like.</p>
+    </nav>
+    <header>
+      <h1><i>Example Meeting Minutes</i></h1>
+      <h2>Brainstorming ideas of what to do over the weekend</h2>
+      <h3>April 16, 2024</h3>
+    </header>
+    <br />
+    <main>
+      <section>
+        <details>
+          <summary><strong>Attendance:</strong></summary>
+          <ul>
+            <li>Jordan</li>
+            <li>Person 2</li>
+            <li>Person 3</li>
+            <li>Person 4</li>
+          </ul>
+        </details>
+      </section>
 
-    <h4>Attendance:</h4>
-    <ul>
-      <li>Jordan</li>
-      <li>Person 2</li>
-      <li>Person 3</li>
-      <li>Person 4</li>
-    </ul>
+      <section>
+        <h4>Meeting Agenda:</h4>
+        <p>This meeting plans to cover <em>potential</em> activities that can be done over the weekend.</p>
+      </section>
 
-    <h4>Meeting Agenda:</h4>
-    <p>This meeting plans to cover potential activities that can be done over the weekend.</p>
+      <section>
+        <h4>Unfinished Business:</h4>
+        <ol>
+          <li>What plans have already been made</li>
+          <li>Who would be able to hangout</li>
+          <li>Any errands that have to be done</li>
+        </ol>
+  
+        <h4>New Business:</h4>
+        <ul>
+          <li>What time is everyone free</li>
+          <li>Potential things to do</li>
+          <li>Who can hangout</li>
+        </ul>
+      </section>
 
-    <h4>Unfinished Business:</h4>
-    <ol>
-      <li>What plans have already been made</li>
-      <li>Who would be able to hangout</li>
-      <li>Any errands that have to be done</li>
-    </ol>
+      <section>
+        <h4>Misc:</h4>
+        <ul>
+          <li>Person 2 is <strong>busy all weekend</strong></li>
+          <li>What will the weather be like over the weekend?</li>
+          <li>Person 3 can <strong>only hangout Saturday</strong></li>
+        </ul>
+      </section>
 
-    <h4>New Business:</h4>
-    <ul>
-      <li>What time is everyone free</li>
-      <li>Potential things to do</li>
-      <li>Who can hangout</li>
-    </ul>
+      <section>
+        <h4>Pictures/Diagrams:</h4>
+        <img src="https://images.unsplash.com/photo-1532622785990-d2c36a76f5a6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="800" alt="An Example Diagram."/>
+      </section>
 
-    <h4>Misc:</h4>
-    <ul>
-      <li>Person 2 is busy all weekend</li>
-      <li>What will the weather be like over the weekend?</li>
-      <li>Person 3 can only hangout Saturday</li>
-    </ul>
+      <section>
+        <h4>Sample Audio/Video:</h4>
+        <h6>Audio:</h6>
+        <audio controls>
+          <source src="https://cdn.pixabay.com/download/audio/2024/04/12/audio_3a3d00e08a.mp3?filename=cheerful-chirping-of-birds_nature-sound-201697.mp3" type="audio/mp3" />
+        </audio>
+        <footer>
+          <a href="https://pixabay.com/sound-effects/cheerful-chirping-of-birds-nature-sound-201697/">
+            Download the audio here
+          </a>
+        </footer>
+        <h6>Video:</h6>
+        <video controls width="800">
+          <source src="https://videos.pexels.com/video-files/15921892/15921892-uhd_3840_2160_50fps.mp4"
+          type="video/mp4"/>
+        </video>
+      </section>
+      <br />
+      <hr />
+      <br />
+      <section>
+        <h4>Other elements that need to be included:</h4>
+        <section>
+          <h5>Text Content:</h5>
+          <div>
+            <p>Some text conatined in the &lt;div&gt; element.</p>
+          </div>
+          <span>Text in &lt;span&gt;.</span>
+        </section>
 
-    <h4>Pictures/Diagrams:</h4>
-    <img src="https://images.unsplash.com/photo-1532622785990-d2c36a76f5a6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="800" alt="An Example Diagram."/>
+        <section>
+          <h5>Forms:</h5>
+          <form method="get">
+            <fieldset>
+              <legend>Testing input type radio</legend>
+              <input type="radio" id="test1" name="test" />
+              <label for="test1">Option 1</label><br />
+              <input type="radio" id="test2" name="test" />
+              <label for="test2">Option 2</label><br /> 
+              <input type="radio" id="test3" name="test" />
+              <label for="test3">Option 3</label><br />                           
+            </fieldset>
+            <label>
+              Name:
+              <input type="text" name="Name" />
+            </label>
+            <fieldset>
+              <legend>Testing input type checkbox</legend>
+              <input type="checkbox" id="test1" name="test" />
+              <label for="test1">Option 1</label><br />
+              <input type="checkbox" id="test2" name="test" />
+              <label for="test2">Option 2</label><br /> 
+              <input type="checkbox" id="test3" name="test" />
+              <label for="test3">Option 3</label><br />   
+            </fieldset>
+            <label for="date">Test date input:</label>
+            <input type="date" />
+          </form><br />
+          <label for="textareatest">Try typing something:</label>
+          <textarea id="textareatest" name="test" rows="5" cols="20">This is a test...</textarea><br />
 
-    <h4>Sample Audio/Video:</h4>
-    <h6>Audio:</h6>
-    <audio controls>
-      <source src="https://cdn.pixabay.com/download/audio/2024/04/12/audio_3a3d00e08a.mp3?filename=cheerful-chirping-of-birds_nature-sound-201697.mp3" type="audio/mp3" />
-    </audio>
-    <h6>Video:</h6>
-    <video controls width="800">
-      <source src="https://videos.pexels.com/video-files/15921892/15921892-uhd_3840_2160_50fps.mp4"
-      type="video/mp4"/>
-    </video>
+          <label for="fruits">Choose a fruit:</label>
+          <input list="somefruits" id="fruits" name="fruits"/>
+          <datalist id="somefruits">
+            <option value="Apple"></option>
+            <option value="Banana"></option>
+            <option value="Orange"></option>
+            <option value="Kiwi"></option>
+          </datalist><br />
+
+          <label for="optionselect">Choose an option:</label>
+
+          <select name="options" id="optionselect">
+            <option value="">Please select an option</option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+          </select><br />
+
+          <button class="favorite styled"
+          type="button">Useless button</button>
+        </section>
+      </section>
+    </main>
   </body>
 </html>
