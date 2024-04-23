@@ -17,3 +17,30 @@ h3 {
 h4 {
     color:color(srgb 0.31 0.49 0.85);
 }
+
+
+/* Unit and Box Model */
+.boxlong{
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5vh;
+    border-radius: 0cm;
+
+    margin-top: auto;
+    margin-bottom: 2pt;
+    margin-left: 10em;
+    margin-right: 30vw;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.boxshort{
+    border: 5px dashed black;
+
+    margin: 5pt 5pt 5pt 5pt;
+
+    padding: 5px 5px 5px 5px;
+}
