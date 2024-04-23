@@ -1,7 +1,11 @@
 /* This file will add CSS stylings to the Meeting Minutes */
 /* Color */
+:root{
+    --header1Color: red;
+}
+
 h1 {
-    color:red;
+    color:var(--header1Color, pink);
 }
 h2 {
     color:rgb(255, 0, 0);
