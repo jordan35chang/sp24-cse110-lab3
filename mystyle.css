@@ -87,3 +87,12 @@ h4 {
     top: 5px;
     left: 200px;
 }
+
+/* Pseudoclasses */
+button:hover{
+    color: purple;
+}
+
+summary:active{
+    color: orchid;
+}
