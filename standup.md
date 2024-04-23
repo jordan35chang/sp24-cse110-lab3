@@ -10,70 +10,72 @@
 5. here
   
 
-#### Monday
-##### Priorities:
+### Monday
+#### Priorities:
 - list
 - priorities
 - here
-##### Progress:
+#### Progress:
 - list
 - progress
 - here
-##### Problems:
+#### Problems:
 - list
 - problems
 - here
 
-#### Tuesday
-##### Priorities:
+### Tuesday
+#### Priorities:
 - list
 - priorities
 - here
-##### Progress:
+#### Progress:
 - list
 - progress
 - here
-##### Problems:
+#### Problems:
 - list
 - problems
 - here
   
-#### Wednesday##### Priorities:
+### Wednesday
+#### Priorities:
 - list
 - priorities
 - here
-##### Progress:
+#### Progress:
 - list
 - progress
 - here
-##### Problems:
+#### Problems:
 - list
 - problems
 - here
   
-#### Thursday##### Priorities:
+### Thursday
+#### Priorities:
 - list
 - priorities
 - here
-##### Progress:
+#### Progress:
 - list
 - progress
 - here
-##### Problems:
+#### Problems:
 - list
 - problems
 - here
   
-#### Friday
-##### Priorities:
+### Friday
+#### Priorities:
 - list
 - priorities
 - here
-##### Progress:
+#### Progress:
 - list
 - progress
 - here
-##### Problems:
+#### Problems:
 - list
 - problems
 - here
