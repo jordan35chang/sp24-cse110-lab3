@@ -62,3 +62,17 @@ h4 {
 .inlineblock{
     display: inline-block;
 }
+
+/* Sizing */
+.normalsize{
+    height: 500px;
+    width: 1000px;
+}
+
+.maxwidth{
+    max-width: 800px;
+}
+
+.minwidth{
+    min-width: none;
+}
