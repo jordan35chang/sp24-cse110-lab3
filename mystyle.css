@@ -1,1 +1,14 @@
 /* This file will add CSS stylings to the Meeting Minutes */
+/* Color */
+h1 {
+    color:red;
+}
+h2 {
+    color:rgb(255, 0, 0);
+}
+h3 {
+    color:#00a400;
+}
+h4 {
+    color:color(srgb 0.31 0.49 0.85);
+}
