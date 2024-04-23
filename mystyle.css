@@ -96,3 +96,34 @@ button:hover{
 summary:active{
     color: orchid;
 }
+
+/* Layouts */
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header1 . header2"
+    "main1 . main2";
+}
+.item1{
+    grid-area: header1;
+}
+
+.item2{
+    grid-area: header2;
+}
+
+.item3{
+    grid-area: main1;
+}
+.item4{
+    grid-area: main2;
+}
