@@ -53,3 +53,12 @@ h4 {
 .alignstart{
     text-align: start;
 }
+
+/* Display */
+.block{
+    display: block;
+}
+
+.inlineblock{
+    display: inline-block;
+}
