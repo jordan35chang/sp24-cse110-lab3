@@ -127,3 +127,13 @@ summary:active{
 .item4{
     grid-area: main2;
 }
+
+/* Responsiveness */
+
+/* Fonts */
+.comic-neue-regular {
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+  
