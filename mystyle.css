@@ -4,7 +4,7 @@
     --header1Color: red;
 }
 
-h1 {
+#heading{
     color:var(--header1Color, pink);
 }
 h2 {
@@ -148,3 +148,47 @@ summary:active{
     font-style: normal;
 }
   
+/* Selectors */
+a[href="https://pixabay.com/sound-effects/cheerful-chirping-of-birds-nature-sound-201697/"]{
+    border: 3px dotted black;
+}
+
+article p:first-child{
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.var1, .var2{
+    color: aqua;
+}
+
+.descendant p{
+    color: blueviolet;
+}
+
+ul > li{
+    border: 1px solid maroon;
+}
+
+h4 + h6 {
+    background-color: beige;
+}
+
+h4 ~ ul{
+    background-color: wheat;
+}
+
+p > em[class="underline"]{
+    font-size: 150%;
+}
+
+section:has(audio):has(video) {
+    background-color: blanchedalmond;
+}
+
+.nesting{
+    font-size: medium;
+    & > strong{
+        color: green;
+    }
+}
