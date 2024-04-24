@@ -74,7 +74,7 @@ h4 {
 }
 
 .minwidth{
-    min-width: none;
+    min-width: 10px;
 }
 
 /* Positions */
