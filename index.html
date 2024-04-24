@@ -15,7 +15,7 @@
       <p  style="color: rgb(239, 127, 15)"> This is a <b class="inline-block">example</b> documentation of Meeting Minutes, and what it would contain, along with a general format of what it should look like.</p>
     </nav>
     <header class="boxlong">
-      <h1 class="relative"><i>Example Meeting Minutes</i></h1>
+      <h1 id="heading" class="relative"><i>Example Meeting Minutes</i></h1>
       <h2 class="comic-neue-regular">Brainstorming ideas of what to do over the weekend</h2>
       <h3>April 16, 2024</h3>
     </header>
@@ -57,7 +57,7 @@
       <section>
         <h4>Misc:</h4>
         <ul>
-          <li>Person 2 is <strong>busy all weekend</strong></li>
+          <li class="nesting">Person 2 is <strong>busy all weekend</strong></li>
           <li>What will the weather be like over the weekend?</li>
           <li>Person 3 can <strong>only hangout Saturday</strong></li>
         </ul>
@@ -102,7 +102,7 @@
           <h5>Forms:</h5>
           <form method="get">
             <fieldset>
-              <legend>Testing input type radio</legend>
+              <legend class="var1">Testing input type radio</legend>
               <input type="radio" id="test1" name="test" />
               <label for="test1">Option 1</label><br />
               <input type="radio" id="test2" name="test" />
@@ -115,7 +115,7 @@
               <input type="text" name="Name" />
             </label>
             <fieldset>
-              <legend>Testing input type checkbox</legend>
+              <legend class="var2">Testing input type checkbox</legend>
               <input type="checkbox" id="test4" name="test" />
               <label for="test1">Option 1</label><br />
               <input type="checkbox" id="test5" name="test" />
@@ -151,6 +151,16 @@
           type="button">Useless button</button>
         </section>
       </section>
+
+      <article>
+        <p>This is one paragraph</p>
+        <p>This is another paragraph</p>
+      </article>
+
+      <div class="descendant"><p>Testing descendant combinator</p></div>
+
+      <p>Testing</p>
+      <p>has()</p>
     </main>
   </body>
 </html>
